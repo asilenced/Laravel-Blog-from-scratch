@@ -21,6 +21,6 @@ class NewsletterController extends Controller
         }
 
         return redirect('/')
-            ->with('success', 'You are now signed up for our newsletter!');
+            ->with('success', 'You are now signed up');
     }
 }
